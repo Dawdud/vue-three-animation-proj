@@ -1,12 +1,25 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view />
+  <Navigation></Navigation>
+  <router-view></router-view>
 </template>
+<script lang="ts">
+import { defineComponent } from "vue";
+import Navigation from "@/components/Navigation.vue"; // @ is an alias to /src
+
+export default defineComponent({
+  name: "App",
+  components: {
+    Navigation,
+  },
+});
+</script>
 
 <style lang="scss">
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
