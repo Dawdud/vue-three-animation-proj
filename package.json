@@ -12,6 +12,10 @@
     "@types/three": "^0.155.1",
     "@vueuse/core": "^10.4.1",
     "core-js": "^3.8.3",
+    "gsap": "^3.12.2",
+    "locomotive": "^0.4.2",
+    "locomotive-scroll": "^4.1.4",
+    "scroll": "^3.0.1",
     "three": "^0.156.1",
     "vue": "^3.2.13",
     "vue-class-component": "^8.0.0-0",
@@ -19,6 +23,7 @@
   },
   "devDependencies": {
     "@types/jest": "^27.0.1",
+    "@types/locomotive-scroll": "^4.1.1",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
     "@vue/cli-plugin-babel": "~5.0.0",
